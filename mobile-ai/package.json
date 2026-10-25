@@ -2,11 +2,11 @@
   "name": "mifos-mobile-ai",
   "version": "0.1.0",
   "private": true,
-  "description": "On-device AI inference POC for Mifos banking — Cloudflare Clef-Flash (Q4_K_M) via llama.rn",
+  "description": "On-device AI inference POC for Mifos banking \u2014 Cloudflare Clef-Flash (Q4_K_M) via llama.rn",
   "scripts": {
     "android": "react-native run-android --mode=prodDebug",
     "ios": "react-native run-ios",
-    "start": "react-native start",
+    "start": "node init && react-native start",
     "lint": "eslint . --ext .ts,.tsx",
     "typecheck": "tsc --noEmit",
     "test": "jest"
